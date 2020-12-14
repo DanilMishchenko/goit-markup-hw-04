@@ -29,8 +29,22 @@
                 </ul>
             </nav>
             <ul class="contacts-header">
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tell:+380961111111">+38 096 111 11 11</a></li>
+                <li class="item">
+                    <a class="link" href="mailto:info@devstudio.com">
+                        <svg class="contact-icon" width="16" height="12">
+                            <use href="./images/symbol-defs.svg#envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link" href="tell:+380961111111">
+                        <svg width="10" height="16">
+                            <use href="./images/symbol-defs.svg#phone"></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
@@ -134,18 +148,56 @@
         </section>
     </main>
 
+    <!--Подвал-->
+    
     <footer class="fooder">
         <div class="container">
-            <a class="fooder-logo" href="./index.html">
-                <span>Web</span>
-                <span class="studio">Studio</span>
-            </a>
-            <address class="addres"> г. Киев, пр-т Леси Украинки, 26</address>
-            <ul class="contacts-fooder">
-                <li><a href="mailto:info@devstudio.com">info@example.com</a></li>
-                <li><a href="tell:+380961111111">+38 099 111 11 11</a></li>
-            </ul>
+            <div class="info">
+                <a class="fooder-logo" href="./index.html">
+                    <span>Web</span>
+                    <span class="studio">Studio</span>
+                </a>
+                <address class="addres"> г. Киев, пр-т Леси Украинки, 26</address>
+                <ul class="contacts-fooder">
+                    <li><a href="mailto:info@devstudio.com">info@example.com</a></li>
+                    <li><a href="tell:+380961111111">+38 099 111 11 11</a></li>
+                </ul>
+            </div>
+            <div class="social-container">
+                <p>Присоединяйтесь</p>
+                <ul class="social-icon">
+                    <li>
+                        <a href="">
+                            <svg width="20" height="20">
+                                <use href="./images/symbol-defs.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg width="20" height="20">
+                                <use href="./images/symbol-defs.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg width="20" height="20">
+                                <use href="./images/symbol-defs.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg width="20" height="20">
+                                <use href="./images/symbol-defs.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
-</body>
-</html>
+    </body>
+    
+    </html>
