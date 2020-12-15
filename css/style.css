@@ -388,7 +388,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: var(--main-color);
+  fill: #afb1b8;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -414,6 +414,7 @@ header {
   border-radius: 4px;
   padding: 6px 22px;
   border: 0px;
+  letter-spacing: 0.03em;
 }
 
 .content-selector button:hover,
@@ -438,6 +439,11 @@ header {
 .content-list .projects {
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.content-list .projects:hover,
+.content-list .projects:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .content-list .projects:nth-child(3n) {
